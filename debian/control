@@ -1,0 +1,25 @@
+Source: node-split-string
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               mocha,
+               nodejs,
+               pkg-js-tools (>= 0.8.8)
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-split-string
+Vcs-Git: https://salsa.debian.org/js-team/node-split-string.git
+Homepage: https://github.com/jonschlinkert/split-string
+
+Package: node-split-string
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs,
+         node-extend-shallow (>= 3.0.0)
+Description: node.js module to split a string on a character
+ This module provides a function to split a string on a character,
+ but makes sure it doesn't when said character is escaped.
+ .
+ Node.js is an event-based server-side JavaScript engine.

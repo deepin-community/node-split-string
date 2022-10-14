@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=s/\+(debian|dfsg|ds|deb)(\.\d+)?$//,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-split-string-$1.tar.gz/ \
+ https://github.com/jonschlinkert/split-string/tags .*/v?([\d\.]+).tar.gz

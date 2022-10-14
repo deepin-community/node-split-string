@@ -1,0 +1,53 @@
+node-split-string (6.1.0-4) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump dh-compat to level 13.
+  * Bump std-vers to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 22 Aug 2021 08:42:51 +0200
+
+node-split-string (6.1.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:44:00 +0200
+
+node-split-string (6.1.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Move installed files to /usr/share/nodejs
+  * Add upstream/metadata
+  * Enable test during build using pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 12 Jul 2019 14:33:54 +0200
+
+node-split-string (6.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Ship typescript definitions.
+  * Bump std-vers to 4.3.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 25 Apr 2019 12:45:24 +0200
+
+node-split-string (6.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refreshed packaging:
+    - Bump dh compat to 11
+    - Bump std-vers 4.2.1
+    - Update dates in d/copyright
+    - Point Vcs-* fields to salsa
+    - Use my debian.org mail address
+    - Rework running the upstream test suite
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 18 Oct 2018 21:34:35 +0200
+
+node-split-string (4.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #882700)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 25 Nov 2017 21:54:02 +0100
